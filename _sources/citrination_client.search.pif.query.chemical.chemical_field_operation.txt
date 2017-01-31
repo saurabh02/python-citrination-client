@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.chemical.chemical_field_operation module
+============================================================================
+
+.. automodule:: citrination_client.search.pif.query.chemical.chemical_field_operation
+    :members:
+    :undoc-members:
+    :show-inheritance:

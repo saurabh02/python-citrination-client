@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.core.sort_extracted module
+==============================================================
+
+.. automodule:: citrination_client.search.pif.query.core.sort_extracted
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,34 @@
+citrination_client.search.pif.query.core package
+================================================
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.search.pif.query.core.base_field_operation
+   citrination_client.search.pif.query.core.base_object_query
+   citrination_client.search.pif.query.core.classification_query
+   citrination_client.search.pif.query.core.field_operation
+   citrination_client.search.pif.query.core.file_reference_query
+   citrination_client.search.pif.query.core.filter
+   citrination_client.search.pif.query.core.id_query
+   citrination_client.search.pif.query.core.name_query
+   citrination_client.search.pif.query.core.pages_query
+   citrination_client.search.pif.query.core.process_step_query
+   citrination_client.search.pif.query.core.property_query
+   citrination_client.search.pif.query.core.quantity_query
+   citrination_client.search.pif.query.core.reference_query
+   citrination_client.search.pif.query.core.sort_extracted
+   citrination_client.search.pif.query.core.source_query
+   citrination_client.search.pif.query.core.system_query
+   citrination_client.search.pif.query.core.units_normalization
+   citrination_client.search.pif.query.core.value_query
+
+Module contents
+---------------
+
+.. automodule:: citrination_client.search.pif.query.core
+    :members:
+    :undoc-members:
+    :show-inheritance:

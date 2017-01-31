@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>citrination_client.search.pif.query.core.reference_query module &#8212; citrination-client 1.1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="citrination-client 1.1.2 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-citrination_client.search.pif.query.core.reference_query">
+<span id="citrination-client-search-pif-query-core-reference-query-module"></span><h1>citrination_client.search.pif.query.core.reference_query module<a class="headerlink" href="#module-citrination_client.search.pif.query.core.reference_query" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery">
+<em class="property">class </em><code class="descclassname">citrination_client.search.pif.query.core.reference_query.</code><code class="descname">ReferenceQuery</code><span class="sig-paren">(</span><em>doi=None</em>, <em>isbn=None</em>, <em>issn=None</em>, <em>url=None</em>, <em>title=None</em>, <em>publisher=None</em>, <em>journal=None</em>, <em>volume=None</em>, <em>issue=None</em>, <em>year=None</em>, <em>pages=None</em>, <em>authors=None</em>, <em>editors=None</em>, <em>affiliations=None</em>, <em>acknowledgements=None</em>, <em>references=None</em>, <em>logic=None</em>, <em>extract_as=None</em>, <em>extract_all=None</em>, <em>tags=None</em>, <em>length=None</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="citrination_client.search.pif.query.core.base_object_query.html#citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery" title="citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery"><code class="xref py py-class docutils literal"><span class="pre">citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery</span></code></a></p>
+<p>Class used to query against a PIF Reference object.</p>
+<dl class="method">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>doi=None</em>, <em>isbn=None</em>, <em>issn=None</em>, <em>url=None</em>, <em>title=None</em>, <em>publisher=None</em>, <em>journal=None</em>, <em>volume=None</em>, <em>issue=None</em>, <em>year=None</em>, <em>pages=None</em>, <em>authors=None</em>, <em>editors=None</em>, <em>affiliations=None</em>, <em>acknowledgements=None</em>, <em>references=None</em>, <em>logic=None</em>, <em>extract_as=None</em>, <em>extract_all=None</em>, <em>tags=None</em>, <em>length=None</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>doi</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the doi field.</li>
+<li><strong>isbn</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the isbn field.</li>
+<li><strong>issn</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the issn field.</li>
+<li><strong>url</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the url field.</li>
+<li><strong>title</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the title field.</li>
+<li><strong>publisher</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the publisher field.</li>
+<li><strong>journal</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the journal field.</li>
+<li><strong>volume</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the volume field.</li>
+<li><strong>issue</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the issue field.</li>
+<li><strong>year</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the year field.</li>
+<li><strong>pages</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">PagesQuery</span></code> operations against the pages field.</li>
+<li><strong>authors</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">NameQuery</span></code> operations against the authors field.</li>
+<li><strong>editors</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">NameQuery</span></code> operations against the editors field.</li>
+<li><strong>affiliations</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the affiliations field.</li>
+<li><strong>acknowledgements</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the acknowledgements field.</li>
+<li><strong>references</strong> &#8211; One or more <a class="reference internal" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery" title="citrination_client.search.pif.query.core.reference_query.ReferenceQuery"><code class="xref py py-class docutils literal"><span class="pre">ReferenceQuery</span></code></a> operations against the references field.</li>
+<li><strong>logic</strong> &#8211; Logic for this filter. Must be equal to one of &#8220;MUST&#8221;, &#8220;MUST_NOT&#8221;, &#8220;SHOULD&#8221;, or &#8220;OPTIONAL&#8221;.</li>
+<li><strong>extract_as</strong> &#8211; String with the alias to save this field under.</li>
+<li><strong>extract_all</strong> &#8211; Boolean setting whether all values in an array should be extracted.</li>
+<li><strong>tags</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the tags field.</li>
+<li><strong>length</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the length field.</li>
+<li><strong>offset</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the offset field.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.acknowledgements">
+<code class="descname">acknowledgements</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.acknowledgements" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.affiliations">
+<code class="descname">affiliations</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.affiliations" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.authors">
+<code class="descname">authors</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.authors" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.doi">
+<code class="descname">doi</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.doi" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.editors">
+<code class="descname">editors</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.editors" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.isbn">
+<code class="descname">isbn</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.isbn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.issn">
+<code class="descname">issn</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.issn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.issue">
+<code class="descname">issue</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.issue" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.journal">
+<code class="descname">journal</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.journal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.pages">
+<code class="descname">pages</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.pages" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.publisher">
+<code class="descname">publisher</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.publisher" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.references">
+<code class="descname">references</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.references" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.title">
+<code class="descname">title</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.title" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.url">
+<code class="descname">url</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.url" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.volume">
+<code class="descname">volume</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.volume" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.reference_query.ReferenceQuery.year">
+<code class="descname">year</code><a class="headerlink" href="#citrination_client.search.pif.query.core.reference_query.ReferenceQuery.year" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/citrination_client.search.pif.query.core.reference_query.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Citrine Informatics.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.core.units_normalization module
+===================================================================
+
+.. automodule:: citrination_client.search.pif.query.core.units_normalization
+    :members:
+    :undoc-members:
+    :show-inheritance:

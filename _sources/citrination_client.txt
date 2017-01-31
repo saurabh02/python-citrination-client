@@ -1,0 +1,25 @@
+citrination_client package
+==========================
+
+Subpackages
+-----------
+
+.. toctree::
+
+    citrination_client.search
+    citrination_client.util
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.client
+
+Module contents
+---------------
+
+.. automodule:: citrination_client
+    :members:
+    :undoc-members:
+    :show-inheritance:

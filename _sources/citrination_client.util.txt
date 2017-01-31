@@ -1,0 +1,17 @@
+citrination_client.util package
+===============================
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.util.quote_finder
+
+Module contents
+---------------
+
+.. automodule:: citrination_client.util
+    :members:
+    :undoc-members:
+    :show-inheritance:

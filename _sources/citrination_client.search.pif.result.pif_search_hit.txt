@@ -1,0 +1,7 @@
+citrination_client.search.pif.result.pif_search_hit module
+==========================================================
+
+.. automodule:: citrination_client.search.pif.result.pif_search_hit
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.core.quantity_query module
+==============================================================
+
+.. automodule:: citrination_client.search.pif.query.core.quantity_query
+    :members:
+    :undoc-members:
+    :show-inheritance:

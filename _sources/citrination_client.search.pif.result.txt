@@ -1,0 +1,18 @@
+citrination_client.search.pif.result package
+============================================
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.search.pif.result.pif_search_hit
+   citrination_client.search.pif.result.pif_search_result
+
+Module contents
+---------------
+
+.. automodule:: citrination_client.search.pif.result
+    :members:
+    :undoc-members:
+    :show-inheritance:

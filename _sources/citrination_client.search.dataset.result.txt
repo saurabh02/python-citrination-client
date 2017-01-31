@@ -1,0 +1,18 @@
+citrination_client.search.dataset.result package
+================================================
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.search.dataset.result.dataset_search_hit
+   citrination_client.search.dataset.result.dataset_search_result
+
+Module contents
+---------------
+
+.. automodule:: citrination_client.search.dataset.result
+    :members:
+    :undoc-members:
+    :show-inheritance:

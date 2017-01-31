@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>citrination_client.search.pif.query.core.file_reference_query module &#8212; citrination-client 1.1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="citrination-client 1.1.2 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-citrination_client.search.pif.query.core.file_reference_query">
+<span id="citrination-client-search-pif-query-core-file-reference-query-module"></span><h1>citrination_client.search.pif.query.core.file_reference_query module<a class="headerlink" href="#module-citrination_client.search.pif.query.core.file_reference_query" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery">
+<em class="property">class </em><code class="descclassname">citrination_client.search.pif.query.core.file_reference_query.</code><code class="descname">FileReferenceQuery</code><span class="sig-paren">(</span><em>relative_path=None</em>, <em>mime_type=None</em>, <em>sha256=None</em>, <em>md5=None</em>, <em>logic=None</em>, <em>extract_as=None</em>, <em>extract_all=None</em>, <em>tags=None</em>, <em>length=None</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="citrination_client.search.pif.query.core.base_object_query.html#citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery" title="citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery"><code class="xref py py-class docutils literal"><span class="pre">citrination_client.search.pif.query.core.base_object_query.BaseObjectQuery</span></code></a></p>
+<p>Class to query against a Pif FileReference object.</p>
+<dl class="method">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>relative_path=None</em>, <em>mime_type=None</em>, <em>sha256=None</em>, <em>md5=None</em>, <em>logic=None</em>, <em>extract_as=None</em>, <em>extract_all=None</em>, <em>tags=None</em>, <em>length=None</em>, <em>offset=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>relative_path</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the relative path field.</li>
+<li><strong>mime_type</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the mime type field.</li>
+<li><strong>sha256</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the sha256 field.</li>
+<li><strong>md5</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the md5 field.</li>
+<li><strong>logic</strong> &#8211; Logic for this filter. Must be equal to one of &#8220;MUST&#8221;, &#8220;MUST_NOT&#8221;, &#8220;SHOULD&#8221;, or &#8220;OPTIONAL&#8221;.</li>
+<li><strong>extract_as</strong> &#8211; String with the alias to save this field under.</li>
+<li><strong>extract_all</strong> &#8211; Boolean setting whether all values in an array should be extracted.</li>
+<li><strong>tags</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the tags field.</li>
+<li><strong>length</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the length field.</li>
+<li><strong>offset</strong> &#8211; One or more <code class="xref py py-class docutils literal"><span class="pre">FieldOperation</span></code> operations against the offset field.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.md5">
+<code class="descname">md5</code><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.md5" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.mime_type">
+<code class="descname">mime_type</code><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.mime_type" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.relative_path">
+<code class="descname">relative_path</code><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.relative_path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.sha256">
+<code class="descname">sha256</code><a class="headerlink" href="#citrination_client.search.pif.query.core.file_reference_query.FileReferenceQuery.sha256" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/citrination_client.search.pif.query.core.file_reference_query.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Citrine Informatics.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

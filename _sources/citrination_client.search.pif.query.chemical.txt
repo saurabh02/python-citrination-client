@@ -1,0 +1,19 @@
+citrination_client.search.pif.query.chemical package
+====================================================
+
+Submodules
+----------
+
+.. toctree::
+
+   citrination_client.search.pif.query.chemical.chemical_field_operation
+   citrination_client.search.pif.query.chemical.chemical_filter
+   citrination_client.search.pif.query.chemical.composition_query
+
+Module contents
+---------------
+
+.. automodule:: citrination_client.search.pif.query.chemical
+    :members:
+    :undoc-members:
+    :show-inheritance:

@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.core.classification_query module
+====================================================================
+
+.. automodule:: citrination_client.search.pif.query.core.classification_query
+    :members:
+    :undoc-members:
+    :show-inheritance:

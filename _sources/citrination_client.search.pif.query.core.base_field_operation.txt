@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.core.base_field_operation module
+====================================================================
+
+.. automodule:: citrination_client.search.pif.query.core.base_field_operation
+    :members:
+    :undoc-members:
+    :show-inheritance:

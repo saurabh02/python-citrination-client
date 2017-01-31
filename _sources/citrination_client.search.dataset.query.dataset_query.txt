@@ -1,0 +1,7 @@
+citrination_client.search.dataset.query.dataset_query module
+============================================================
+
+.. automodule:: citrination_client.search.dataset.query.dataset_query
+    :members:
+    :undoc-members:
+    :show-inheritance:

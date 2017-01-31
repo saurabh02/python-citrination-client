@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>citrination_client.search.pif.query.chemical.chemical_filter module &#8212; citrination-client 1.1.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.1.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="citrination-client 1.1.2 documentation" href="index.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-citrination_client.search.pif.query.chemical.chemical_filter">
+<span id="citrination-client-search-pif-query-chemical-chemical-filter-module"></span><h1>citrination_client.search.pif.query.chemical.chemical_filter module<a class="headerlink" href="#module-citrination_client.search.pif.query.chemical.chemical_filter" title="Permalink to this headline">¶</a></h1>
+<dl class="class">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter">
+<em class="property">class </em><code class="descclassname">citrination_client.search.pif.query.chemical.chemical_filter.</code><code class="descname">ChemicalFilter</code><span class="sig-paren">(</span><em>logic=None</em>, <em>exists=None</em>, <em>equal=None</em>, <em>element=None</em>, <em>partial=None</em>, <em>exact=None</em>, <em>filter=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">pypif.util.serializable.Serializable</span></code></p>
+<p>Filter that can be applied to a field that stores chemical information.</p>
+<dl class="method">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.__init__">
+<code class="descname">__init__</code><span class="sig-paren">(</span><em>logic=None</em>, <em>exists=None</em>, <em>equal=None</em>, <em>element=None</em>, <em>partial=None</em>, <em>exact=None</em>, <em>filter=None</em><span class="sig-paren">)</span><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Constructor.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>logic</strong> &#8211; Logic for this filter. Must be equal to one of &#8220;MUST&#8221;, &#8220;MUST_NOT&#8221;, &#8220;SHOULD&#8221;, or &#8220;OPTIONAL&#8221;.</li>
+<li><strong>exists</strong> &#8211; True/False to simply test whether the field exists and has a non-null value.</li>
+<li><strong>equal</strong> &#8211; String with the phrase to match against.</li>
+<li><strong>element</strong> &#8211; True to match against the single element field.</li>
+<li><strong>partial</strong> &#8211; True to match against the partial formula field.</li>
+<li><strong>exact</strong> &#8211; True if matches should be exact.</li>
+<li><strong>filter</strong> &#8211; List of <a class="reference internal" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter" title="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter"><code class="xref py py-class docutils literal"><span class="pre">ChemicalFilter</span></code></a> objects with sub-filters.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.element">
+<code class="descname">element</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.element" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.equal">
+<code class="descname">equal</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.equal" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.exact">
+<code class="descname">exact</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.exact" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.exists">
+<code class="descname">exists</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.exists" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.filter">
+<code class="descname">filter</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.filter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.logic">
+<code class="descname">logic</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.logic" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.partial">
+<code class="descname">partial</code><a class="headerlink" href="#citrination_client.search.pif.query.chemical.chemical_filter.ChemicalFilter.partial" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/citrination_client.search.pif.query.chemical.chemical_filter.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">citrination-client 1.1.2 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2017, Citrine Informatics.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.4.6.
+    </div>
+  </body>
+</html>

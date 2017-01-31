@@ -1,0 +1,7 @@
+citrination_client.client module
+================================
+
+.. automodule:: citrination_client.client
+    :members:
+    :undoc-members:
+    :show-inheritance:

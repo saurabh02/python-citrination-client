@@ -1,0 +1,7 @@
+citrination_client.search.pif.query.chemical.composition_query module
+=====================================================================
+
+.. automodule:: citrination_client.search.pif.query.chemical.composition_query
+    :members:
+    :undoc-members:
+    :show-inheritance:
